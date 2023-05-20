@@ -70,5 +70,15 @@ namespace _215_pract2_skvor
         {
             MainFrame.Navigate(new Task3Page());
         }
+
+        private void BtnTask4_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Task4Page());
+        }
+
+        private void BtnTask5_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Task5Page());
+        }
     }
 }
