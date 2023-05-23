@@ -27,11 +27,9 @@ namespace _215_pract2_skvor
         {
             // Задание 2 дополнительно
 
-            int year = Convert.ToInt32(TbNumberA.Text);
-
-            int century = (year - 1) / 100 + 1;
-
-            TextBlockCentury.Text = $"Номер столетия: {century}";
+            int a = Convert.ToInt32(TbNumberA.Text);
+            int b = (a / 100)+1;
+            TextBlockAnswer.Text = $"Столетие = {b}";
         }
     }
 }

@@ -33,7 +33,7 @@
               HorizontalAlignment="Left"
               VerticalAlignment="Center"
               Margin="10,0,0,0" Height="30" />
-        <TextBlock x:Name="TextBlockCentury"
+        <TextBlock x:Name="TextBlockAnswer"
               Text="Ответ: "
               Grid.Row="3"
               Grid.Column="0"
